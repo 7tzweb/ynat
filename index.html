@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="shoplisth" style="">
+    <h1>ShoppingList</h1>
+  </div>
+  <div class="container mainc">
+  
+    <div class="row">
+      <div class="col-sm-6 col-xs-12 ">
+        <div class="warp-table">
+          <div class="h3table">ADD YOUR ITEMS HEAR:</div>
+          <table id="tablelist" class="table table-hover">
+            <thead>
+              <!-- <tr>
+                 <th class="h3table">ADD YOUR ITEMS HEAR:</th>
+                </tr> -->
+              <!-- <tr>
+                <th class="edit" colspan="3"><span>DELETE</span></th>
+              </tr> -->
+            </thead>
+            <tbody>
+              
+            </tbody>
+          </table>
+          <div class="input">
+            <input type="text" class="custinput" id="item-input" placeholder="Add Item" autofocus>
+            <button type="submit" class="btn btn-success">add</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-xs-12 ">
+        
+          <div class="formd">
+            <div class="h3table">ADD YOUR ITEMS HEAR:</div>
+            <div class="formfelds">
+              <input type="hidden" id="srcid" value="">
+              <div class="form-group">
+                <label for="Input1">Quantity</label>
+                <input type="text" class="form-control" id="Input1"  placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="Input2">price</label>
+                <input type="text" class="form-control" id="Input2" placeholder="">
+              </div>
+              <div class="form-group">
+                <label for="Input3">Description</label>
+                <textarea  type="textarea" class="form-control" id="Input3" placeholder="" srows="3"></textarea>
+              </div>
+              <button type="button" id="changelist" class="btn btn-success">change</button>
+            </div>
+           
+          </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+
+  <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+  </script>
+
+</body>
+
+</html>

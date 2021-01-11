@@ -1,0 +1,39 @@
+.mainc{
+    margin-top: 10%;;
+}
+.shoplisth{
+    background-color: #28e89f;
+     color: #fff;
+      padding: 5px;
+}
+.shoplisth h1{
+    margin: 10px;
+}
+
+.h3table{
+    background-color: #28e89f;
+     color: #fff;
+     padding: 5px;
+
+}
+.table{
+    border: 1px solid #ddd;
+    margin-bottom: 0px;
+}
+.warp-table{
+    margin-top: 5%;
+    max-width: 350px;
+}
+.formd{
+    margin-top: 5%;
+    border: 1px solid #ddd;
+    display: none;
+
+}
+.formfelds{
+    padding: 15px;
+}
+.btn-success{
+    background-color: #28e89f;
+    color:#fff;
+}
